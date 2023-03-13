@@ -1,8 +1,7 @@
 import PortfolioList from "../portfoliolist/PortfolioList.component";
 import "./portfolio.styles.scss";
 import { useState, useEffect } from 'react';
-import { featured, webPortfolio,  mobilePortfolio, designPortfolio, brandingPortfolio } from "../../data";
-import { featuredPortfolio } from './../../data';
+import { featuredPortfolio, webPortfolio,  mobilePortfolio, designPortfolio, brandingPortfolio } from "../../data";
 
 
 const Portfolio = () => {

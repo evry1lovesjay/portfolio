@@ -1,7 +1,6 @@
 import { Handshake } from "@mui/icons-material";
 import "./contact.styles.scss"
 import { useState } from 'react';
-import { spacing } from "@mui/system";
 
 const Contact = () => {
 
