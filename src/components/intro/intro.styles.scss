@@ -40,6 +40,13 @@
     .right{
         flex: 0.5;
         position: relative;
+        display: flex;
+        flex-direction: column;
+
+        @include mobile{
+            align-items: center;
+            justify-content: center;
+        }
 
         .introRwrapper{
             width: 100%;
@@ -101,9 +108,16 @@
             position: absolute;
             bottom: 10px;
             left: 40%;
+            width: 100%;
+            // border: 2px solid red;
+
+            @include mobile{
+                left: 48%;
+                width: 100%;
+            }
+            
 
             .arrow_down{
-                width: 30px;
                 animation: arrowBlink 2s infinite;
             }
 

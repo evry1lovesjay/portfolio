@@ -36,7 +36,7 @@ const Intro = () => {
                 <h1>The Unknown Developer</h1>
                 <h3>Freelance <span ref={textRef}></span> </h3>
             </div>
-            <a href="#portfolio">
+            <a href="#portfolio" className="arrowdown_wrapper">
                 <KeyboardDoubleArrowDown className="arrow_down"/>
             </a>
         </div>
